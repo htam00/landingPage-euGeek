@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	display: flex;
+}
+.header{
+	padding: 1%;
+	align-items: baseline;
+}
+.content{
+	display: flex;
+}
+.card{
+	width: 30%;
+	height: 20%;
+	padding: 2%;
+	border-radius: 1px;
+}
+.bg-dark{
+	background: #022c43;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 11pt;
+	margin-left: 5%;
+}
+a[name="facebook"]:hover{
+	color: blue;
+}
+a[name="instagram"]:hover{
+	color: #774898;
+}
+.navbar{
+	width: 30%;
+}
+.navbar a:hover{
+	color: blue;
+	border-radius: 30%;
+	background: white;
+	padding: 2%;
+}
+.brand{
+	color: white;
+}
+.contacts{
+	
+}
